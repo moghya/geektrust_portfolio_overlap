@@ -16,6 +16,5 @@ namespace mfs {
             throw mfs::InvalidCommandStringException(
                     "Unexpected extra chars found in CalculateOverlap Command.");
         }
-        valid_ = true;
     }
 }

@@ -14,6 +14,5 @@ namespace mfs {
         if (fund_names_.empty()) {
             throw mfs::InvalidCommandStringException("Fund names not found in CurrentPolio Command");
         }
-        valid_ = true;
     }
 }

@@ -50,7 +50,7 @@ namespace mfs {
                 case CommandType::CurrentPortfolio:
                     return ProcessCurrentPortfolio(static_cast<CurrentPortfolioCommand *>(command));
                 case CommandType::Unknown:
-                    std::cout << "Invalid Command: " << command. << "\n";
+                    std::cout << "Invalid Command: " << command->Text() << "\n";
                     return;
                 default:
                     // CommandNotSupportedException

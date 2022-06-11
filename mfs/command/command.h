@@ -35,7 +35,7 @@ namespace mfs {
             CommandType Type() const {
                 return type_;
             }
-            virtual std::string Text() const {
+            std::string Text() const {
                 return text_;
             }
         private:

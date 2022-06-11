@@ -19,11 +19,6 @@ namespace mfs {
         const std::string& Ticker() const {
             return stock_ticker_;
         }
-
-        std::string Text() const override {
-
-        }
-
     private:
         std::string fund_name_;
         std::string stock_ticker_;
